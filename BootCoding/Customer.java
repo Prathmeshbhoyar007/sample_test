@@ -50,5 +50,10 @@ public class Customer{
     public void setEmailID(String emailID) {
         this.emailID = emailID;
     }
+    public String getEmailId() {
+        return null;
+    }
+    public void setEmailId(String string) {
+    }
     
 }
