@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Sorting",
+            "request": "launch",
+            "mainClass": "Java.Sorting",
+            "projectName": "Desktop_1e52946e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilders",
+            "request": "launch",
+            "mainClass": "Java.StringBuilders",
+            "projectName": "Desktop_1e52946e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Strings",
+            "request": "launch",
+            "mainClass": "Java.Strings",
+            "projectName": "Desktop_1e52946e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Switch_case",
+            "request": "launch",
+            "mainClass": "Java.Switch_case",
+            "projectName": "Desktop_1e52946e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Function",
+            "request": "launch",
+            "mainClass": "Java.Function",
+            "projectName": "Desktop_1e52946e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Patterns_Problems",
+            "request": "launch",
+            "mainClass": "Java.Patterns_Problems",
+            "projectName": "Desktop_1e52946e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello_world",
+            "request": "launch",
+            "mainClass": "Java.hello_world",
+            "projectName": "Desktop_1e52946e"
+        }
+    ]
+}
