@@ -2,6 +2,8 @@
 
 import java.util.Date;
 
+import dao.CustomerDAO;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -50,6 +52,9 @@ public class Application {
         System.out.println("Total Amount: " + order.getTotalAmount());
         System.out.println("Order Date: " + order.getOrderDate());
         System.out.println("Order Delivery Address : " + order.getDeliveryAddress());
+        
+        CustomerDAO customerDAO = new CustomerDAO();
+        customerDAO.createTable();
 
     }
 }
