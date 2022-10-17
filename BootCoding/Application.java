@@ -1,5 +1,4 @@
 
-
 import java.util.Date;
 
 import dao.CustomerDAO;
