@@ -6,7 +6,7 @@ public class ArrayListExercise {
     /**
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main(String[] args){
         ArrayList ages = new ArrayList();
         ages.add(10);
         ages.add(20);
