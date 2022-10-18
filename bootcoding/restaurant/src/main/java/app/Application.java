@@ -1,11 +1,38 @@
+package app;
 
 import java.util.Date;
 
 import dao.CustomerDAO;
+import dao.MenuItemDAO;
+import dao.OrderDAO;
+import dao.OrderMenuItemDAO;
+import dao.VendorDAO;
+import model.Customer;
+import model.Order;
+import model.Vendor;
 
 public class Application {
-
     public static void main(String[] args) {
+
+        testSampleData();
+
+        CustomerDAO customerDAO = new CustomerDAO();
+        customerDAO.createTable();
+
+        VendorDAO vendorDAO = new VendorDAO();
+        vendorDAO.createTable();
+
+        OrderDAO orderDAO = new OrderDAO();
+        orderDAO.createTable();
+
+        MenuItemDAO menuItemDAO = new MenuItemDAO();
+        menuItemDAO.createTable();
+
+        OrderMenuItemDAO orderMenuItemDAO = new OrderMenuItemDAO();
+        orderMenuItemDAO.createTable();
+    }
+
+    private static void testSampleData() {
         Customer ramesh = new Customer();
         ramesh.setName("Ramesh");
         ramesh.setCity("Nagpur");
@@ -51,9 +78,7 @@ public class Application {
         System.out.println("Total Amount: " + order.getTotalAmount());
         System.out.println("Order Date: " + order.getOrderDate());
         System.out.println("Order Delivery Address : " + order.getDeliveryAddress());
-        
-        CustomerDAO customerDAO = new CustomerDAO();
-        customerDAO.createTable();
 
     }
+
 }
